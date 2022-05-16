@@ -220,6 +220,7 @@ The base node which everything inherits from.
 - __screen__ - The screen to be associated with.
 - __parent__ - The desired parent.
 - __children__ - An arrray of children.
+- __events__ - An object of events to register. Key is event name, value is handler. Alias for `on`: `events: {name: cb}` equals `.on('name', cb)`
 
 ##### Properties:
 

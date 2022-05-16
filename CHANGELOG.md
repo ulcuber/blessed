@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Terminal filtering capabilities
 -   Project dependencies
+-   `events` option for nodes to bind listeners on creation
+-   Chainable events: `.on('name').on('event')`
 
 ### Changed
 
