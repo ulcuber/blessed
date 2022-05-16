@@ -942,7 +942,7 @@ A horizontal list. Useful for a main menu bar.
 - __style.selected__ - Style for a selected item.
 - __style.item__ - Style for an unselected item.
 - __commands/items__ - Set buttons using an object with keys as titles of
-  buttons, containing of objects containing keys of `keys` and `callback`.
+  buttons, containing of objects containing keys of `keys` (keys to select), `callback` (called when selected), `prefix` (prepended to title).
 - __autoCommandKeys__ - Automatically bind list buttons to keys 0-9.
 
 ##### Properties:

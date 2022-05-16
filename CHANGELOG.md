@@ -5,17 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [unreleased][] - 2022-05-16
+## [0.2.1][] - 2022-05-16
 
 ### Added
 
 ### Changed
 
 -   new npm package
+-   `listbar` **`prefix` option** now could be falsy (`''`, `null`) and autofilled only when missing (`undefined`)
 
 ### Fixed
 
 -   strict inequality
+-   npm audit fix
 
 ## [v0.1.0][] - 2015-04-11 Blessed v0.1.0 - new terminal goodies for node.js
 
@@ -103,6 +105,8 @@ to.
 
 ```
 
-[unreleased]: https://github.com/ulcuber/blessed/compare/v0.1.81...HEAD
+[unreleased]: https://github.com/ulcuber/blessed/compare/v0.2.1...HEAD
+
+[v0.2.1]: https://github.com/ulcuber/blessed/compare/v0.1.81...v0.2.1
 
 [v0.1.0]: https://github.com/ulcuber/blessed/compare/v0.0.51...v0.1.0
