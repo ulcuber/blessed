@@ -1,11 +1,15 @@
 {
-  "name": "neo-blessed",
+  "name": "@ulcoder/blessed",
   "description": "A fork of the original blessed with bug fixes and maintenance.",
   "author": "Christopher Jeffrey",
   "contributors": [
     {
       "name": "Iuri Matias",
       "email": "iuri.matias@gmail.com"
+    },
+    {
+      "name": "Victor",
+      "email": "victor17011998@yandex.ru"
     }
   ],
   "scripts": {
@@ -16,10 +20,10 @@
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
   "preferGlobal": false,
-  "repository": "git://github.com/embark-framework/neo-blessed.git",
-  "homepage": "https://github.com/embark-framework/neo-blessed",
+  "repository": "git://github.com/ulcuber/blessed.git",
+  "homepage": "https://github.com/ulcuber/blessed",
   "bugs": {
-    "url": "http://github.com/embark-framework/neo-blessed/issues"
+    "url": "http://github.com/ulcuber/blessed/issues"
   },
   "keywords": [
     "curses",

@@ -1,4 +1,4 @@
-# neo-blessed
+# blessed
 
 A fork of the original blessed with bug fixes and maintenance.
 
@@ -35,7 +35,7 @@ The blessed API itself has gone on to inspire [termui][termui] for Go.
 ## Install
 
 ``` bash
-$ npm install neo-blessed
+$ npm install @ulcoder/blessed
 ```
 
 ## Example
@@ -48,7 +48,7 @@ __NOTE__: It is recommend you use either `smartCSR` or `fastCSR` as a
 or when manipulating lines.
 
 ``` js
-var blessed = require('neo-blessed');
+var blessed = require('@ulcoder/blessed');
 
 // Create a screen object.
 var screen = blessed.screen({
@@ -2142,7 +2142,7 @@ A simple telnet server might look like this (see examples/blessed-telnet.js for
 a full example):
 
 ``` js
-var blessed = require('neo-blessed');
+var blessed = require('@ulcoder/blessed');
 var telnet = require('telnet2');
 
 telnet({ tty: true }, function(client) {
@@ -2257,7 +2257,7 @@ This will actually parse the xterm terminfo and compile every
 string capability to a javascript function:
 
 ``` js
-var blessed = require('neo-blessed');
+var blessed = require('@ulcoder/blessed');
 
 var tput = blessed.tput({
   terminal: 'xterm-256color',
@@ -2278,7 +2278,7 @@ $ echo "$(tput.js setaf 2)Hello World$(tput.js sgr0)"
 The main functionality is exposed in the main `blessed` module:
 
 ``` js
-var blessed = require('neo-blessed')
+var blessed = require('@ulcoder/blessed')
   , program = blessed.program();
 
 program.key('q', function(ch, key) {
