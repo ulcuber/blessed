@@ -1387,6 +1387,7 @@ manager. Requires term.js and pty.js to be installed. See
 - __cursor__ - Can be `line`, `underline`, and `block`.
 - __terminal__ - Terminal name (Default: `xterm`).
 - __env__ - Object for process env.
+- __filter__ - callback that receives data and should return filtered data.
 - Other options similar to term.js'.
 
 ##### Properties:
