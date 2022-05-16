@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 -   Invalid caching of 8 color scheme
+-   Typos in README
 
 ## [0.2.1][] - 2022-05-16
 
