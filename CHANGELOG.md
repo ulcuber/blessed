@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Replaced pty.js by node-pty (this makes the projectusable in Windows)
 
+### Fixed
+
+-   Invalid caching of 8 color scheme
+
 ## [0.2.1][] - 2022-05-16
 
 ### Added
