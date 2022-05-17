@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Invalid caching of 8 color scheme
 -   Typos in README
+-   Don't focus button on press (<https://github.com/chjj/blessed/pull/250>)
 
 ## [0.2.1][] - 2022-05-16
 
