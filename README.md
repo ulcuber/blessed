@@ -945,6 +945,7 @@ A horizontal list. Useful for a main menu bar.
 - __commands/items__ - Set buttons using an object with keys as titles of
   buttons, containing of objects containing keys of `keys` (keys to select), `callback` (called when selected), `prefix` (prepended to title).
 - __autoCommandKeys__ - Automatically bind list buttons to keys 0-9.
+- __disableKeysPrefix__ - Disable using key name from `keys` as prefix
 
 ##### Properties:
 
