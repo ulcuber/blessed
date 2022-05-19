@@ -187,7 +187,7 @@ screen.render();
   - [Effects](#effects)
 - [Events](#events)
   - [Event Bubbling](#event-bubbling)
-- [Poisitioning](#positioning)
+- [Positioning](#positioning)
 - [Rendering](#rendering)
 - [Artificial Cursors](#artificial-cursors)
 - [Multiple Screens](#multiple-screens)
